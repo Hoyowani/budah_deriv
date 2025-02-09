@@ -155,7 +155,7 @@ p {
 
 
 .banner {
-	background-image: url(../img/.ha.jpg);
+	background-image: url(../img/harare.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -175,8 +175,10 @@ p {
 }
 
 .banner .logo img {
-	padding-top: 60px;
-	max-width: 100%;
+	margin-top: 0px;
+	padding-top: 0px;
+	height: auto;
+	width: 150px;
 }
 
 .banner .tabs-content {
@@ -833,10 +835,15 @@ footer p em {
 }
 
 .page-heading .logo {
-	padding: 60px 0px;
+	padding: 0px 0px;
 	text-align: left;
 }
-
+.page-heading .logo img {
+	margin-top: 0px;
+	padding-top: 0px;
+	height: auto;
+	width: 150px;
+}
 .page-heading .page-direction-button {
 	text-align: right;
 	margin-top: 110px;
@@ -944,7 +951,10 @@ footer p em {
 	background-color: #121212;
 	padding: 100px 0px;
 }
-
+.map iframe{
+	position: relative;
+	border-radius: 5%;
+}
 
 
 
@@ -1044,6 +1054,11 @@ footer p em {
 
 	footer ul li {
 		margin-bottom: 10px!important;
+	}
+	.map iframe{
+		position: relative;
+		border-radius: 5%;
+		width: 385px;
 	}
 		
 }
